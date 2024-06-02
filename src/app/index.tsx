@@ -1,8 +1,8 @@
+import { router } from 'expo-router'
 import { ArrowUpRight, Plus } from 'phosphor-react-native'
 import { Image, SafeAreaView, Text, View } from 'react-native'
 import { Button } from 'react-native-elements'
 import LogoDailyDiet from '../assets/logo/Logo.png'
-
 export default function HomeScreen() {
   return (
     <SafeAreaView>
@@ -32,7 +32,9 @@ export default function HomeScreen() {
         </View>
         <View>
           <Text className="text-base font-normal">Refeiçao</Text>
+
           <Button
+            onPress={() => router.push('/newMeal')}
             icon={<Plus size={20} color="white" />}
             title="Nova refeição"
             buttonStyle={{

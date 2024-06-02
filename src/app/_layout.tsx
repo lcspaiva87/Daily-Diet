@@ -33,7 +33,7 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="index" options={{ title: 'home' }} />
-        <Stack.Screen name="user/index" />
+        <Stack.Screen name="newMeal/index" options={{ title: 'new meal' }} />
       </Stack>
     </ThemeProvider>
   )
