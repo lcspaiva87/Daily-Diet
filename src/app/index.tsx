@@ -3,9 +3,10 @@ import { ArrowUpRight, Plus } from 'phosphor-react-native'
 import { Image, SafeAreaView, Text, View } from 'react-native'
 import { Button } from 'react-native-elements'
 import LogoDailyDiet from '../assets/logo/Logo.png'
+import { ButtonCutom } from '../components/Button'
 export default function HomeScreen() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="py-9">
       <View className="flex justify-between p-6">
         <View className="flex justify-between flex-row ">
           <Image source={LogoDailyDiet} alt="Logo dailyDiet" />
@@ -49,6 +50,7 @@ export default function HomeScreen() {
             }}
           />
         </View>
+        <ButtonCutom title="Nova refeição" />
       </View>
     </SafeAreaView>
   )
