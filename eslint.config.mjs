@@ -11,6 +11,7 @@ pluginReactConfig.rules = {
   '@typescript-eslint/no-var-requires': 'off',
   'no-undef': 'off',
   'react/no-unescaped-entities': 'off',
+  '@typescript-eslint/no-explicit-any': 'off',
 }
 
 export default [
