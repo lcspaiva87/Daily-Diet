@@ -14,7 +14,7 @@ module.exports = {
           Mid: '#CBE4B4',
           Light: '#E5F0DB',
         },
-        Base: {
+        base: {
           100: '#1B1D1E',
           200: '#333638',
           300: '#5C6265',
